@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80);
+}
+
+main{
+    background-color: burlywood;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+header h1{
+    margin-top: 10px;
+}
+
+header p{
+    text-decoration: italic;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.coffee-img{
+    width: 50px;
+    margin-top: -10px;
+}
+
+.cake-img{
+    width: 40px;
+    margin-top: -5px;
+}
+
+.menu-item-container{
+    margin: 5px;
+}
+
+.menu-item-container p{
+    display: inline-block;
+}
+
+.item{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+a{
+    display: block;
+    color: brown;
+    margin-bottom: 5px;
+}
+
+a:hover{
+    color: black;
+}
+
